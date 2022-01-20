@@ -55,29 +55,38 @@ li{
 .discover{
     color: #404040;
 }
+body{
+    background: #FAFAFA;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 300px;
+
+}
 
 .backgroundimage{
     filter: blur(5px);
     margin-top: 160px;
     height: 270px;
     width: 1318px;
-    margin-left: 50px;
 }
 .sea{
     position: relative;
-    text-align: center;
+
 }
+
 .featured{
     position: absolute;
     bottom: 200px;
-    left: 300px;
+    left: 100px;
     font-size: 15px;
     color: #F0F0F0;
     opacity: 72%;
 }
 .title{
     position: absolute;
-    left: 300px;
+    left: 100px;
     bottom: 150px;
     font-size: 32px;
     color: cornsilk;
@@ -85,12 +94,61 @@ li{
 }
 .paragraph{
     position: absolute;
-    left: 300px;
+    left: 100px;
     bottom: 100px ;
     color: cornsilk;
     font-size: 15px;
     width: 1120px;
     text-align: left;
+}
+.shape{
+    position: absolute;
+    left: 100px;
+    bottom: 40px;
+    background: #6294A2;
+    width: 186px;
+    height:44px ;
+    border-radius: 70px;
+    display: block;
+}
+.shape h3{
+    padding: 15px;
+    color: white;
+}
+.title2{
+    position: absolute;
+    bottom: 210px;
+    right: 700px;
+    font-size: 12px;
+    color: #F0F0F0;
+    opacity: 72%;
+
+}
+.shape2{
+    position: absolute;
+    bottom: 202px;
+    right: 550px;
+    background: #FCFCFC;
+    width: 124px;
+    height:26px ;
+    border-radius: 70px;
+    display: block;
+
+
+}
+.shape2 h3{
+    font-size: 12px;
+    color: #5E8A93;
+    padding: 6px;
+}
+.threearticle{
+    background-color: white;
+    display: inline-block;
+    padding: 40px;
+}
+.car{
+    float: right;
+}
 
 
 
