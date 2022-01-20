@@ -1,0 +1,96 @@
+header{
+    display: flex;
+    background-color: #FCFCFC;
+    margin: 0 auto;
+    height: 111px;
+    padding-left: 213px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.circle{
+    background:rgb(98, 148, 162);
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    position: fixed;
+
+}
+.explord{
+    margin-left: 13px;
+    display: flex;
+}
+h2{
+    margin-top: 10px;
+    margin-left: 82px;
+
+    border-left: 1px solid; 
+    border-color:#F0F0F0;
+    padding-left: 42px;
+    font-family: Acumin Pro; 
+    font-size: 16px;
+}
+h2 a{
+    color: #404040;
+}
+ul{
+    display: flex;
+    margin-right: 300px;
+    font-size: 16px;
+
+}
+li{
+    padding: 80px;
+    font-size: 16px;
+}
+.home{
+    color: #404040;
+    font-weight: bold
+    
+}
+.discover{
+    color: #404040;
+}
+
+.backgroundimage{
+    filter: blur(5px);
+    margin-top: 160px;
+    height: 270px;
+    width: 1318px;
+    margin-left: 50px;
+}
+.sea{
+    position: relative;
+    text-align: center;
+}
+.featured{
+    position: absolute;
+    bottom: 200px;
+    left: 300px;
+    font-size: 15px;
+    color: #F0F0F0;
+    opacity: 72%;
+}
+.title{
+    position: absolute;
+    left: 300px;
+    bottom: 150px;
+    font-size: 32px;
+    color: cornsilk;
+    font-weight: bold;
+}
+.paragraph{
+    position: absolute;
+    left: 300px;
+    bottom: 100px ;
+    color: cornsilk;
+    font-size: 15px;
+    width: 1120px;
+    text-align: left;
+
+
+
